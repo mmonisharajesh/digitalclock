@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    <h2>Digital Clock</h2>
+    <div class="container">
+      <div class="date">
+        <div class="content">
+          <h5>Date</h5>
+          <p id="dd"></p>
+        </div>
+        <div class="content">
+          <h5>Month</h5>
+          <p id="mm"></p>
+        </div>
+        <div class="content">
+          <h5>Year</h5>
+          <p id="yy"></p>
+        </div>
+      </div>
+      <div class="time">
+        <div class="content">
+          <h5>Hour</h5>
+          <p id="hh"></p>
+        </div>
+        <div class="content">
+          <h5>Minutes</h5>
+          <p id="min"></p>
+        </div>
+        <div class="content">
+          <h5>Seconds</h5>
+          <p id="sec"></p>
+        </div>
+      </div>
+      <div class="day">
+        <div class="days">
+          <input type="radio" name="day" class="input" id="sun" />
+          <label for="sun">Sun</label>
+        </div>
+        <div class="days">
+          <input type="radio" name="day" class="input" id="mon" />
+          <label for="mon">Mon</label>
+        </div>
+
+        <div class="days">
+          <input type="radio" name="day" class="input" id="tues" />
+          <label for="tues">Tue</label>
+        </div>
+        <div class="days">
+          <input type="radio" name="day" class="input" id="wed" />
+          <label for="wed">Wed</label>
+        </div>
+        <div class="days">
+          <input type="radio" name="day" class="input" id="thurs" />
+          <label for="thurs">Thu</label>
+        </div>
+        <div class="days">
+          <input type="radio" name="day" class="input" id="fri" />
+          <label for="fri">Fri</label>
+        </div>
+        <div class="days">
+          <input type="radio" name="day" class="input" id="sat" />
+          <label for="sat">Sat</label>
+        </div>
+      </div>
+      <div id="alarm">
+        <span>Set Time</span>
+        <span><input type="time" name="" id="setTime" value=""></span>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
